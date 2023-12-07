@@ -1,0 +1,41 @@
+.external{
+    transition-duration: 500ms;
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.external:active{
+    transition-duration: 500ms;
+    color: rgb(4, 114, 158);
+    letter-spacing: 4px;
+    font-size: 35px;
+    
+}
+
+
+body:hover{
+    transition-duration: 5000ms;
+    background-color:rgb(219, 219, 219);
+
+}
+body{
+    transition-duration: 1000ms;
+    background-color: white;
+}
+p{
+    transition-duration: 500ms;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #242424;
+}
+p:hover{
+    transition-duration: 500ms;
+    margin-left: 7%;
+    margin-right: 1%;
+
+}
+#heading{
+    color: darkslategray;
+}
