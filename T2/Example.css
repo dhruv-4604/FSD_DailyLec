@@ -8,17 +8,14 @@
 }
 .external:active{
     transition-duration: 500ms;
-    color: rgb(4, 114, 158);
+    color: rgb(2, 112, 11);
     letter-spacing: 4px;
     font-size: 35px;
     
 }
 
 
-body{
-    transition-duration: 1000ms;
-    background-color: white;
-}
+
 p{
     transition-duration: 500ms;
     margin-left: 4%;
@@ -27,7 +24,7 @@ p{
     
 }
 p::first-letter{
-    color: #bb0d0d;
+    color: #058801;
     font-size: 20px;
     font-weight: 700;
     
@@ -40,23 +37,23 @@ p:hover{
 
 }
 #heading{
-    color: darkslategray;
+    color: rgb(36, 36, 36);;
 }
 
 #nav{
     background-color:rgb(36, 36, 36);
     overflow: hidden;
     position: fixed;
+    margin-left:-8px;
+    margin-top: -8px;
     width:100%;
-    margin-top: 0%;
-    margin-left: 0%;
-    float:right;
+    padding: 0%;
 }
 #navb{
-    
+    transition-duration: 200ms;
     color: chartreuse;
     text-decoration: none;
-    font-size: 18px;
+    
     text-align: center;
 
 }
@@ -65,23 +62,32 @@ p:hover{
     color:rgb(36, 36, 36);
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 600;
     
 }
 #list{
-    padding-left: 0px;
     display: block;
+    transition-duration: 80ms;
+    padding-left: 0px;
+    margin-block: 0;
+    font-size: 18px;
     padding-top: 1.2%;
     padding-bottom: 1.2%;
     padding-inline: 4%;
     float: left;
 }
 #list:hover{
-    background-color: aqua;
+    transition-duration: 80ms;
+    background-color: rgb(54, 54, 54);
+    letter-spacing: 1.4px;
+    
 }
 #list2{
     display: block;
+    transition-duration: 200ms;
+    padding-left: 0px;
+    margin-block: 0;
+    font-size: 18px;
     padding-top: 1.2%;
     padding-bottom: 1.2%;
     padding-inline: 4%;
@@ -89,3 +95,22 @@ p:hover{
     background-color:chartreuse;
     
 }
+#list2:hover{
+    transition-duration: 200ms;
+    padding-inline: 7%;
+    background-color:chartreuse;
+    
+
+}
+#list2:active{
+    background-color:rgb(115, 226, 3);
+    padding-inline: 7%;
+    
+
+}
+body{
+    background-color: rgb(197, 233, 162);
+   }
+   @media only screen and (orientation:landscape){
+    body{background-color: rgb(255, 255, 255);}
+   }
