@@ -1,0 +1,12 @@
+.p1{
+    display: none;
+}
+.p2{
+    display: inline;
+}
+.p3{
+    display: block;
+}
+.p4{
+    display:inline-block;
+}
