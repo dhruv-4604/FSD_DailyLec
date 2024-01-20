@@ -1,0 +1,31 @@
+.nav-bg{
+    background-color:#2D3047;
+    font-family: 'Poppins';
+    font-weight: 600; 
+    }
+
+.nav-comp{
+    transition-duration: 200ms;
+    text-align: center;
+    color: white;  
+}
+.nav-pc-comp:hover{
+    transition-duration: 200ms;
+    background-image: linear-gradient(to bottom, rgba(255, 138, 0, 0) 65%,#FB5607 );
+    
+}
+.nav-comp:hover{
+    transition-duration: 200ms;
+    color:#FB5607;
+    
+}
+.nav-pc-comp{
+    transition-duration: 200ms;
+
+   display: inline-block;
+   padding-top: 2%;
+   padding-bottom: 2%;
+    text-align: center;
+   
+
+}
